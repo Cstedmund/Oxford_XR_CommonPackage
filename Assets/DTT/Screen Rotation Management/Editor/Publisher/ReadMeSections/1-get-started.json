@@ -1,0 +1,13 @@
+{
+    "title": "Screen Rotation Management: get started quickly",
+    "text": "[To get started, go to 'Tools/DTT/Screen Rotation Management/Window'. Here you'll find the general and editor settings of the asset.][Now to rotate the screen in code, add the 'DTT.ScreenRotationManagement' namespace to your script. Call ScreenRotationManager.SetOrientation to set the orientation of the screen to a certain ScreenOrientation. To toggle automatic rotation on, set ScreenRotationManager.AutoRotate to true. With this you can start implementing screen rotation into your project!][l]",
+    "links": [
+        {
+            "text": "Open documentation",
+            "url": "Documentation.pdf",
+            "inline": false
+        }
+    ],
+    "imageUrls": [
+    ]
+}

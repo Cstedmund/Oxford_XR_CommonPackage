@@ -1,0 +1,15 @@
+{
+    "name": "DTT.ScreenRotationManagement.Demo",
+    "references": [
+        "GUID:b81de306a90331548912c01c1371b266"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
