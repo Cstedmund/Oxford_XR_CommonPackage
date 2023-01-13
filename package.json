@@ -1,0 +1,15 @@
+{
+	"name": "com.ed.xrappcommonpkgsync",
+	"displayName": "Cst XR Common Pkg",
+	"description": "Common Script package for XR App",
+	"version": "1.0.0",
+	"unity": "2020.3",
+	"dependencies": {
+	},
+	"license": "MIT",
+	"author": {
+		"email": "tsedmundcs@gmail.com",
+		"name": "Cstedmund",
+		"url": "https://github.com/Cstedmund"
+	}
+}
