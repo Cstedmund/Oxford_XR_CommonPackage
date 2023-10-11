@@ -17,8 +17,6 @@ public class UIBoardVideoController : UiBoardController {
 
     protected override void Start() {
         base.Start();
-        if (_videoScreen == null) return;
-        _videoScreen.SizeToParent();
     }
 
     // Update is called once per frame
