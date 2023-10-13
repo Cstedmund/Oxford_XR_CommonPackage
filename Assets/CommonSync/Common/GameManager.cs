@@ -68,6 +68,14 @@ public class GameManager : MonoBehaviour {
             debugIndicator.enabled = false;
         }
     }
+	
+	private void OnValidate() {
+        if (debugOn) {
+            debugIndicator.enabled = true;
+        } else {
+            debugIndicator.enabled = false;
+        }
+    }
 
     private void Update() {
         DebugControl();
