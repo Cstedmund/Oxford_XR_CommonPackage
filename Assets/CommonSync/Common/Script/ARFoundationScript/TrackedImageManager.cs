@@ -47,6 +47,11 @@ public class TrackedImageManager : MonoBehaviour
     }
 
     //public void UpdateARLibrary() {
+		// if (gameManager == null) { 
+            // gameManager = GameManager.Instance;
+            // UpdateARLibrary();
+            // return;
+        // }
     //    if (gameManager.currentLanguage == GameManager.Language.en) {
     //        m_TrackedImageManager.referenceLibrary = gameManager.currentBook.aRImageLibrary;
     //    } else {
