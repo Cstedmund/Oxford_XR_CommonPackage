@@ -3,14 +3,13 @@ using System.Collections;
 using UnityEngine;
 
 public class DeviceChange : MonoBehaviour {
-
     public static event Action<Vector2> OnResolutionChange;
     public static event Action<DeviceOrientation> OnOrientationChange;
     public static float CheckDelay = 0.5f;        // How long to wait until we check again.
 
     static Vector2 resolution;                    // Current Resolution
     static DeviceOrientation orientation;        // Current Device Orientation
-    static bool isAlive = true;                    // Keep this script running?
+    bool isAlive = true;                    // Keep this script running?
 
     void Start() {
         isAlive = true;
@@ -22,7 +21,6 @@ public class DeviceChange : MonoBehaviour {
         orientation = Input.deviceOrientation;
 
         while (isAlive) {
-
             // Check for a Resolution Change
             if (resolution.x != Screen.width || resolution.y != Screen.height) {
                 resolution = new Vector2(Screen.width, Screen.height);
@@ -31,10 +29,10 @@ public class DeviceChange : MonoBehaviour {
 
             // Check for an Orientation Change
             switch (Input.deviceOrientation) {
-                case DeviceOrientation.Unknown:            // Ignore
-                case DeviceOrientation.FaceUp:            // Ignore
-                case DeviceOrientation.FaceDown:        // Ignore
-                    break;
+                //case DeviceOrientation.Unknown:            // Ignore
+                //case DeviceOrientation.FaceUp:            // Ignore
+                //case DeviceOrientation.FaceDown:        // Ignore
+                //    break;
                 default:
                     if (orientation != Input.deviceOrientation) {
                         orientation = Input.deviceOrientation;
